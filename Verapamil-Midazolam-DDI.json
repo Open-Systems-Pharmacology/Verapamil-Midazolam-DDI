@@ -1571,16 +1571,6 @@
                 }
               ]
             }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
           ]
         }
       ],
@@ -1613,16 +1603,6 @@
                   "Unit": "min"
                 }
               ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
             }
           ]
         },
@@ -1700,6 +1680,14 @@
             {
               "Name": "NumberOfRepetitions",
               "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
@@ -3847,7 +3835,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Verapamil-Midazolam-DDI\nDDI Treatment - Verapamil/Midazolam - Wang 2005\n2020-04-20 16:32"
+          "OriginText": "Verapamil-Midazolam-DDI\nDDI Treatment - Verapamil/Midazolam - Wang 2005\n2020-04-20 17:58"
         }
       ],
       "Interactions": [

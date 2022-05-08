@@ -3639,7 +3639,10 @@
     {
       "Name": "DDI Treatment - Verapamil/Midazolam - Wang 2005",
       "Model": "4Comp",
-      "Solver": {},
+      "Solver": {
+        "AbsTol": 1E-12,
+        "RelTol": 1E-07
+      },
       "OutputSchema": [
         {
           "Parameters": [
